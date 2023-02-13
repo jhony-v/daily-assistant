@@ -1,0 +1,57 @@
+.app {
+  &-root {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__header {
+    padding: 0 10%;
+  }
+}
+
+.brand {
+  &__title {
+    color: var(--neutral-color-lightest);
+    margin-bottom: 15px;
+
+    &--name {
+      color: var(--tertiary-color);
+    }
+  }
+
+  &__helper {
+    color: gray;
+    font-size: 0.9em;
+  }
+
+  &__button {
+    color: var(--neutral-color-lightest);
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 40px;
+    padding: 15px 100px;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+  }
+}
+
+.engine {
+  max-width: 500px;
+  height: 250px;
+  width: 100%;
+  display: flex;
+  margin: 30px auto;
+  &__placeholder {
+    width: 250px;
+    object-fit: cover;
+    height: 250px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+  }
+}

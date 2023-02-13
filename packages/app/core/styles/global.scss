@@ -1,0 +1,30 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+:root {
+    --primary-dark-color: rgb(2, 7, 28);
+    --primary-dark-color-light: #141c72;
+    --primary-dark-color-lightest: #505cdf;
+    --secondary-color:#04e9fb;
+    --tertiary-color: #c71ef4;
+    --tertiary-color-light: #f697fb;
+    --neutral-color-lightest: white;
+}
+
+
+html {
+    background: var(--primary-dark-color);
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: var(--font-roboto-mono);
+    background: var(--primary-dark-color);
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
